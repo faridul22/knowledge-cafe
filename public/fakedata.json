@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "authorName": "Mr. Raju",
+        "blogTitle": "How to get your first job as a self-taught programmer",
+        "blogCoverImage": "https://images.unsplash.com/photo-1605379399642-870262d3d051?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cHJvZ3JhbW1pbmd8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+        "authorImage": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fG1lbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+        "readTime": 10,
+        "publishDate": "Mar 14 (17 Days ago)"
+    },
+    {
+        "id": 2,
+        "authorName": "Mrs. Setara",
+        "blogTitle": "Should you learn programming during the current reign of AI?",
+        "blogCoverImage": "https://images.unsplash.com/photo-1566837945700-30057527ade0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGRldmVsb3BlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+        "authorImage": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8d29tZW58ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+        "readTime": 12,
+        "publishDate": "Mar 25 (6 Days ago)"
+    },
+    {
+        "id": 3,
+        "authorName": "Mina Mostofa",
+        "blogTitle": "Complete guide to make your-self a programmer in 2023",
+        "blogCoverImage": "https://images.unsplash.com/photo-1520085601670-ee14aa5fa3e8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGNvZGluZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+        "authorImage": "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzB8fHdvbWFufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "readTime": 15,
+        "publishDate": "Mar 27 (4 Days ago)"
+    },
+    {
+        "id": 3,
+        "authorName": "HM Farid",
+        "blogTitle": "What should be the learning process of a programmer?",
+        "blogCoverImage": "https://images.unsplash.com/photo-1544256718-3bcf237f3974?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8ODB8fGRldmVsb3BlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+        "authorImage": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fHdvbWVuJTIwcG9ydHJhaXR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+        "readTime": 15,
+        "publishDate": "Mar 30 (1 Days ago)"
+    }
+]
