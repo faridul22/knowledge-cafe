@@ -6,6 +6,10 @@ const Blogs = () => {
 
     const [blogs, setBlogs] = useState([]);
 
+    const [bookMarks, setBookMarks] = useState([]);
+
+    const [time, setTime] = useState(0)
+
     useEffect(() => {
         fetch('data.json')
             .then(res => res.json())
@@ -13,11 +17,13 @@ const Blogs = () => {
     }, []);
 
     const bookMarkEventHandler = (blogTitle) => {
-        console.log(blogTitle)
+        const newBookMark = [...bookMarks, blogTitle,]
+        setBookMarks(newBookMark)
     }
-
+    let sum = 0;
     const readingTimeEventHandler = (readTime) => {
-        console.log(readTime)
+        sum = readTime + time;
+        setTime(sum)
     }
     return (
         <div className='main-container'>
@@ -32,7 +38,10 @@ const Blogs = () => {
                 }
             </div>
             <div className="bookmark-container">
-                <SelectedBlog ></SelectedBlog>
+                <SelectedBlog
+                    bookMarks={bookMarks}
+                    time={time}
+                ></SelectedBlog>
             </div>
         </div>
     );
