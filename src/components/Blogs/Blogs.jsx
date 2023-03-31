@@ -23,7 +23,7 @@ const Blogs = () => {
                 }
             </div>
             <div className="bookmark-container">
-                <h5>Selected blogs {blogs.length}</h5>
+                <SelectedBlog ></SelectedBlog>
             </div>
         </div>
     );
