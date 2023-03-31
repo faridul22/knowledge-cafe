@@ -1,0 +1,15 @@
+.main-container {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.blogs-container {
+    padding-right: 24px;
+}
+
+.bookmark-container {
+    height: 1352px;
+    margin-top: 32px;
+    border-radius: 8px;
+    background-color: rgba(17, 17, 17, 0.05);
+}
