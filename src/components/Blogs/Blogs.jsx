@@ -12,6 +12,13 @@ const Blogs = () => {
             .then(data => setBlogs(data))
     }, []);
 
+    const bookMarkEventHandler = (blogTitle) => {
+        console.log(blogTitle)
+    }
+
+    const readingTimeEventHandler = (readTime) => {
+        console.log(readTime)
+    }
     return (
         <div className='main-container'>
             <div className="blogs-container">
@@ -19,6 +26,8 @@ const Blogs = () => {
                     blogs.map(blog => <Blog
                         key={blog.id}
                         blog={blog}
+                        bookMarkEventHandler={bookMarkEventHandler}
+                        readingTimeEventHandler={readingTimeEventHandler}
                     ></Blog>)
                 }
             </div>
