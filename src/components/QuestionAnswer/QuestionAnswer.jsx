@@ -61,6 +61,20 @@ const QuestionAnswer = () => {
 
                 <p>3. <strong>Updating the document title:</strong> You can use the useEffect hook to update the document title using the document.title property. By default, React components do not have access to the document object, but you can access it using the useEffect hook.</p>
             </article>
+
+            <article>
+                <h3>
+                    <FontAwesomeIcon icon={faArrowRight} /> How Does <u>React</u> work?
+                </h3>
+                <p><FontAwesomeIcon icon={faArrowRight} /> <strong>What is React:</strong> React
+                    is a JavaScript library for building user interfaces. It is Declarative and Component-Based.
+                </p>
+
+                <p><FontAwesomeIcon icon={faArrowRight} /> <strong>How React works: </strong>
+                    React has Virtual DOM and Real DOM through which React works. The purpose of React's virtual DOM and real DOM process is to efficiently update the UI based on changes in the application state. When a component's state changes, React generates a new virtual representation of the UI and compares it to the previous representation to determine what has changed. It then updates the actual DOM only where necessary, resulting in better performance and faster UI updates.
+                </p>
+
+            </article>
         </div>
     );
 };
