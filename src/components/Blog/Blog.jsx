@@ -3,7 +3,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBookmark } from '@fortawesome/free-solid-svg-icons'
 import './Blog.css'
 const Blog = (props) => {
-    console.log(props.blog)
     const { blogCoverImage, authorImage, authorName, publishDate, readTime, blogTitle } = props.blog;
     const bookMarkEventHandler = props.bookMarkEventHandler;
     const readingTimeEventHandler = props.readingTimeEventHandler;

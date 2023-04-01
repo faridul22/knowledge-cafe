@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { ToastContainer, toast } from 'react-toastify';
 import Blog from '../Blog/Blog';
 import SelectedBlog from '../SelectedBlog/SelectedBlog';
 import './Blogs.css'
@@ -17,9 +18,16 @@ const Blogs = () => {
     }, []);
 
     const bookMarkEventHandler = (blogTitle) => {
-        const newBookMark = [...bookMarks, blogTitle,]
-        setBookMarks(newBookMark)
+        const newBookMark = [...bookMarks, blogTitle,];
+        if (bookMarks.includes(blogTitle)) {
+            toast("This blog is already added");
+        }
+        else {
+            setBookMarks(newBookMark)
+        }
+
     }
+
     let sum = 0;
     const readingTimeEventHandler = (readTime) => {
         sum = readTime + time;
