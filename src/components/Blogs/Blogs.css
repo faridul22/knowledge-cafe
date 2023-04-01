@@ -1,6 +1,7 @@
 .main-container {
     display: grid;
     grid-template-columns: 3fr 1fr;
+    padding: 0 20px;
 }
 
 .blogs-container {
@@ -13,4 +14,20 @@
     margin-top: 32px;
     border-radius: 8px;
     background-color: rgba(17, 17, 17, 0.05);
+}
+
+@media only screen and (max-width:576px) {
+    .main-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .bookmark-container {
+        width: auto;
+    }
+
+    .blogs-container {
+        padding: 0 20px;
+        margin: 0 auto;
+    }
 }

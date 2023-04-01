@@ -2,10 +2,14 @@ import React from 'react';
 import './Header.css'
 const Header = () => {
     return (
-        <div>
+        <div className='header-container'>
             <nav className='nav_container'>
                 <h3>Knowledge Cafe</h3>
-                <img className='rounded-circle img-fluid' src="../../../public/images/md_farid.png" alt="" />
+                <div className='nav-items'>
+                    <a href="/home">Home</a>
+                    <a href="/about">About</a>
+                    <a href="/contact">Contact</a>
+                </div>
             </nav>
         </div>
     );
