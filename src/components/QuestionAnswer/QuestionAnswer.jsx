@@ -49,6 +49,18 @@ const QuestionAnswer = () => {
 
                 </div>
             </article>
+            <article>
+                <h3>
+                    <FontAwesomeIcon icon={faArrowRight} /> Purpose of <u>useEffect</u> other than fetching data
+                </h3>
+                <p><FontAwesomeIcon icon={faArrowRight} />Use effects are mainly used for side effects. That is, use effect is usually used to load data from an external place. But apart from this, there are many other uses of the use effect. <strong>For example below:</strong>
+                </p>
+                <p>1. <strong>For props change:</strong> suppose we want to trigger a state update due to an updated fetch() call. We are sending the fetched data to a child component, and whenever that data is changed, the child component re-process it.</p>
+
+                <p>2. <strong>State change:</strong> useEffect is a React Hook that can be used for various purposes, including filtering an array based on the input entered by a user. In this scenario, useEffect is used to update the filtered array based on the user's input in real-time. By using the useState Hook to save the input value and useEffect to trigger a filter implementation when the input changes, the component can efficiently update the filtered array without triggering unnecessary re-renders.</p>
+
+                <p>3. <strong>Updating the document title:</strong> You can use the useEffect hook to update the document title using the document.title property. By default, React components do not have access to the document object, but you can access it using the useEffect hook.</p>
+            </article>
         </div>
     );
 };
