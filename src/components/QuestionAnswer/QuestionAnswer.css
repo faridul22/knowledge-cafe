@@ -1,0 +1,16 @@
+article {
+    border: 1px solid #6047EC;
+    border-radius: 8px;
+    padding: 30px;
+    margin: 0 20px;
+    margin-bottom: 20px;
+}
+
+article h3 {
+    text-align: center;
+}
+
+.section-title {
+    text-align: center;
+    color: rgb(47, 160, 67);
+}
